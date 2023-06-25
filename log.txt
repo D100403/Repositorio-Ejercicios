@@ -1,3 +1,5 @@
+Ejercicio 1: Hago un stash a mi commit de custom-navbar
+Ejercicio 2:
 commit 976e01adc6fa0b15d06dff77427c78af32bd60f3 (HEAD -> master, origin/master)
 Merge: a649838 e872044
 Author: Diego <d100403m@gmail.com>
@@ -22,5 +24,3 @@ Author: Diego <d100403m@gmail.com>
 Date:   Sat Jun 24 21:47:43 2023 -0300
 
     Creo Status.js
-
-Hago un stash a mi commit de custom-navbar
