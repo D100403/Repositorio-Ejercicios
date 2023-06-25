@@ -1,2 +1,26 @@
+commit 976e01adc6fa0b15d06dff77427c78af32bd60f3 (HEAD -> master, origin/master)
+Merge: a649838 e872044
+Author: Diego <d100403m@gmail.com>
+Date:   Sat Jun 24 22:20:00 2023 -0300
 
+    Merge branch 'front-react'
 
+commit e872044aa3f0ca69ab054432261f4ce4b63735d8 (origin/front-react, front-react)
+Author: Diego <d100403m@gmail.com>
+Date:   Sat Jun 24 22:18:25 2023 -0300
+
+    Añado codigo del react
+
+commit a6498384601ec456034d193c8ab8c6e970c45fc2
+Author: Diego <d100403m@gmail.com>
+Date:   Sat Jun 24 21:52:27 2023 -0300
+
+    Deleted Status.js
+
+commit 895c108003d92a40cd707f0782937de2ba20338d
+Author: Diego <d100403m@gmail.com>
+Date:   Sat Jun 24 21:47:43 2023 -0300
+
+    Creo Status.js
+
+Hago un stash a mi commit de custom-navbar
