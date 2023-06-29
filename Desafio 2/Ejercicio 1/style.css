@@ -6,12 +6,15 @@
 
 h1 {
     font-family: var(--fuente-principal);
+    font-size: 78px;
     color: #0a2ff1;
     font-weight: bold;
+    margin: auto;
 }
 
 p {
     font-family: var(--fuente-principal);
+    font-size: 30px;
     color: #0a2ff1;
     font-weight: 500;
 }
@@ -21,12 +24,12 @@ strong {
 }
 
 .fondo {
-    height: 15rem;
-    width: 13.6rem;
+    height: 25rem;
+    width: 23.8rem;
     margin-left:0rem;
 }
 
 .celular {
-    height: 20rem;
-    margin-left: -13.8rem;
+    height: 35rem;
+    margin-left: -24rem;
 }
