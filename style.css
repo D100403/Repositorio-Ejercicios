@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #edf7ff;
+}
+
+:root {
+    --fuente-titulos: 'MuseoModerno', Times, serif;
+    --fuente-textos: 'Asap', Times, serif;
+    --color-titulos: #0a2ff1;
+    --color-textos:#04146c;
+}
+
+.titulo {
+    display: inline-block;
+    font-family: var(--fuente-titulos);
+    font-size: 117px;
+    color: #0a2ff1;
+    margin-left: 10rem;
+    margin-bottom: 0px;
+    margin-right: 100%;
+    line-height: 6rem;
+    border-color: #0a2ff1;
+    border-radius: 100px;
+}
+
+.subtitulo {
+    display: inline-block;
+    font-family: var(--fuente-textos);
+    font-size: 52px;
+    font-weight: 400;
+    color: var(--color-titulos);
+    margin-left: 10rem;
+    margin-top: 0px;
+    height: 5rem;
+}
+
+.textos {
+    display: inline-block;
+    font-family: var(--fuente-textos);
+    font-size: 33px;
+    color: var(--color-textos);
+    margin-left: 10rem;
+}
+
+h3 {
+    font-family: var(--fuente-textos);
+    font-size: 48px;
+    color:var(--color-titulos);
+    margin-left: 10rem;
+}
+
+.lista {
+    font-family: var(--fuente-textos);
+    font-size: 33px;
+    color:var(--color-textos);
+    margin-left: 10rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: var(--fuente-titulos);
+    font-size: 198px;
+    color:#8a9af1;
+    margin:0px;
+}
