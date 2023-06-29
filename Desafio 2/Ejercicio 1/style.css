@@ -4,6 +4,10 @@
     --fuente-principal:'Poppins', Times, serif;
 }
 
+main {
+    text-align: center;
+}
+
 h1 {
     font-family: var(--fuente-principal);
     font-size: 78px;
@@ -27,9 +31,11 @@ strong {
     height: 25rem;
     width: 23.8rem;
     margin-left:0rem;
+
 }
 
 .celular {
     height: 35rem;
     margin-left: -24rem;
+    margin-right: 18rem;
 }
