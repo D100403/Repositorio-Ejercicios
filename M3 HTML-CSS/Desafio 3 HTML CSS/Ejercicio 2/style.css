@@ -108,6 +108,7 @@ textarea {
     margin-right: 3rem;
     margin-top: 2rem;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #submit {
@@ -118,4 +119,13 @@ textarea {
     padding:5px 25px 5px 25px;
     border: 0;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #421ccc;
+}
+
+#reset:hover {
+    background-color: #fc9a2a;
 }
