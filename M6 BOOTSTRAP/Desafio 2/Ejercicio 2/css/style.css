@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+
+:root {
+    --fuente-principal:'Source Sans 3', Times, Serif;
+    --color-principal: #04146c;
+}
+
+* {
+    font-family: var(--fuente-principal);
+}
+
+h1 {
+    font-size: 5.16rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1.33rem;
+    width: 61%;
+}
+
+#contenedor {
+    color: var(--color-principal);
+}
+
+#texto {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.btn {
+    font-size: 1.16rem;
+    font-variant: small-caps;
+    width: 150px;
+    color: white;
+    background-color: var(--color-principal);
+    border-radius: 0;
+}
+
+@media (min-width:768px) {
+    img {
+        width: 80%;
+    } 
+}
+
+@media (max-width:768px) {
+    img {
+        width: 100%;
+    }
+    #contenedor {
+        flex-direction: column;
+    }
+    #texto {
+        align-items: center;
+        margin:2rem;
+    }
+}
+
