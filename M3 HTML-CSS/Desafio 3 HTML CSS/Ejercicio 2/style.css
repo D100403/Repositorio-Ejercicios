@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fuente-principal:'Roboto', Times, Serif;
+    --fuente-titulo:'Roboto Slab', Times, Serif;
+}
+
+header {
+    width: 100%;
+    height: 20px;
+    background-color: #3958f1;
+}
+
+a {
+    display: inline-flex;
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #04146c;
+    font-size: 24px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+
+#logo {
+    width: 5%;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+
+p {
+    font-family: var(--fuente-principal);
+
+}
+
+.contact {
+    font-family: var(--fuente-titulo);
+    font-size: 45.33px;
+    font-weight: 700;
+    color: #2c00cc;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.consulta {
+    font-size: 30.66px;
+    color: #04146c;
+    margin-bottom: 3.5rem;
+    margin-left: 2rem;
+}
+
+div {
+    margin:2rem;
+}
+
+form {
+    font-family: var(--fuente-principal);
+    font-size: 30.66px;
+    color: #04146c;
+    font-weight: 700;
+}
+
+.campos {
+    font-family: var(--fuente-principal);
+    width: 500px;
+    height: 50px;
+    padding: 3px;
+    font-size: 20px;
+    border:1px solid #6a7feb;
+    margin-top: 1rem;
+}
+
+strong {
+    color: red;
+}
+
+textarea {
+    font-family: var(--fuente-principal);
+    padding: 3px;
+    width: 500px;
+    height: 100px;
+    border:1px solid #6a7feb;
+    margin-top: 1rem;
+}
+#reset {
+    font-family: var(--fuente-titulo);
+    background-color: #f98500;
+    color: white;
+    font-size: 32px;
+    padding:5px 25px 5px 25px;
+    border: 0;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit {
+    font-family: var(--fuente-titulo);
+    background-color: #2c00cc;
+    color: white;
+    font-size: 32px;
+    padding:5px 25px 5px 25px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #421ccc;
+}
+
+#reset:hover {
+    background-color: #fc9a2a;
+}

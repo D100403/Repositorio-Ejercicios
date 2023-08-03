@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+:root {
+    --fuente-principal: 'Mulish', Times, serif ;
+    --color-subtitulos: #0a2ff1;
+    --color-titulos: #04146c;
+    --color-textos: #04146c;
+}
+
+.titulo {
+    color: var(--color-titulos);
+    font-size: 37.48px;
+    font-family: var(--fuente-principal);
+    font-weight: 900;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.subtitulos {
+    display: inline-block;
+    color: var(--color-subtitulos);
+    font-size: 21.56px;
+    font-family: var(--fuente-principal);
+    font-weight: 700;
+}
+
+p {
+    color: var(--color-textos);
+    font-size: 19.97px;
+    font-family: var(--fuente-principal);
+    font-weight: 400;
+    margin-left: 70px;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: inline-block;
+    width: 55px;
+    margin-right: 15px;
+    margin-bottom: -20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.67em;
+    margin-top: 0.67em;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+:root {
+    --fuente-principal: 'Mulish', Serif, Times;
+}
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.formulario {
+    font-family: var(--fuente-principal);
+    text-align: center;
+    margin-top: 25vh;
+}
+
+strong {
+    font-size: 24px;
+    color: #04146c;
+}
+
+input {
+    display: inline-block;
+    font-family: var(--fuente-principal);
+    font-size: 18.66px;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #414166;
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: var(--fuente-principal);
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #0a2ff1;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #0b28b9;
+    cursor: pointer;
+}
+
+.btn:active {
+    height: 47px;
+    width: 495px;
+    font-size: 19px;
+    padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 22px;
+}
+
+.enlace {
+    font-size: 18.66px;
+    margin: 20px;
+}
+
+a {
+    color: #0a2ff1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.barra {
+    height: 1px;
+    width: 500px;
+    background-color: black;
+}

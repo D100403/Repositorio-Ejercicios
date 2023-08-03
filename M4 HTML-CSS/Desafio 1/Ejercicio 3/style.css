@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
+@font-face {
+    font-family: 'Cooveltica';
+    src: url(coolvetica\ rg.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fuente-principal:'Roboto', Times, Serif;
+    --fuente-titulo:'Cooveltica', Times, Serif;
+    --color-principal:#04146c;
+    --color-titulo:#0a2ff1;
+    --color-fondo:#eff2ff;
+}
+
+h1 {
+    font-family: var(--fuente-titulo);
+    color: var(--color-titulo);
+    font-size: 120px;
+    font-weight: normal;
+    margin-left: 0.9em;
+}
+
+.sub {
+    font-family: var(--fuente-principal);
+    color: var(--color-principal);
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 2.7em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.user1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1em;
+    background-color:var(--color-fondo);
+    
+}
+
+.user2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1em;
+    background-color:var(--color-fondo);
+}
+
+.user3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1em;
+    background-color:var(--color-fondo);
+}
+
+.puntuaciones {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+i {
+    font-family: var(--fuente-principal);
+    font-size: 24px;
+    color: var(--color-principal);
+    margin: 1em;
+
+}
+
+.opi {
+    font-family: var(--fuente-principal);
+    color: var(--color-principal);
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.texto {
+    font-family: var(--fuente-principal);
+    color: #04146c;
+    font-size: 24px;
+    margin: 1em;
+}
+
+img {
+    width: 30%;
+    margin: 1em;
+}
