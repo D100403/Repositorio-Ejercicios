@@ -4,7 +4,7 @@ let gastosOpci = gastosOpcionales();
 let inversion = inversiones();
 alert('Los gastos necesarios son: $'+gastosNece + 
     '\nLos gastos opcionales son: $'+gastosOpci + 
-    '\ny la inversion es: $'+inversion);
+    '\nEl ahorro e inversion es: $'+inversion);
 
 function plataTotal() {
     let plata
